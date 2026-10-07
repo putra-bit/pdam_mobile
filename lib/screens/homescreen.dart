@@ -16,7 +16,7 @@ class _HomescreenState extends State<Homescreen> {
         children: [
           Text("Hai"),
           SizedBox(height: 5,),
-          Text("Hai to~")
+          Text("Ha")
         ],
       )
       );
