@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pdam_mobile/screens/homescreen.dart';
+import 'package:pdam_mobile/screens/Auth/loginpage.dart';
 
 void main(){
   runApp(MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Homescreen(),
+      home: Loginpage(),
     );
   }
 }
